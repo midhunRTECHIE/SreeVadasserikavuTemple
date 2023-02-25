@@ -7276,7 +7276,7 @@ body {
   line-height: 1.8;
   font-weight: 300;
   color: gray;
-  background: url(../images/bg_4.jpg) no-repeat fixed;
+  background: url(../images/bg_4.jpeg) no-repeat fixed;
   background-size: cover; }
   body.menu-show {
     overflow: hidden;
@@ -7465,13 +7465,20 @@ h1, h2, h3, h4, h5,
       transition: .3s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
       color: #fff; }
-
-.navbar-brand {
-  font-size: 22px;
-  line-height: 1; }
-  .navbar-brand span {
-    font-size: 22px;
-    color: #e7710c; }
+  @media (max-width: 450.98px) {
+    .navbar-brand {
+      font-size: 20px !important;
+      line-height: 1; }
+      .navbar-brand span {
+        font-size: 20px;
+        color: #e7710c; }
+  }
+    .navbar-brand {
+      font-size: 24px;
+      line-height: 1; }
+      .navbar-brand span {
+        font-size: 24px;
+        color: #e7710c; }
   .navbar-brand small {
     text-transform: uppercase;
     font-size: 11px;
@@ -7938,14 +7945,14 @@ h1, h2, h3, h4, h5,
       font-size: 18px; }
       .pricing-entry .text h3 span {
         background: #121618;
-        background: url(../images/bg_4.jpg) no-repeat fixed;
+        background: url(../images/bg_4.jpeg) no-repeat fixed;
         padding-right: 20px; }
     .pricing-entry .text .price {
       width: 80px;
       color: #e7710c;
       text-align: right;
       background: #121618;
-      background: url(../images/bg_4.jpg) no-repeat fixed;
+      background: url(../images/bg_4.jpeg) no-repeat fixed;
       font-size: 16px; }
 
 @media (max-width: 991.98px) {
